@@ -29,8 +29,8 @@ $( '.menu a' ).on("click", function(){
 
 
 $(window).on("resize", resize);
-$(window).on("resize", reNav);
+// $(window).on("resize", reNav);
 
 resize(); // call once initially
-reNav(); // call once initially
+// reNav(); // call once initially
 
