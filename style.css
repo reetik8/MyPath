@@ -1,0 +1,167 @@
+body {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 80px;
+}
+
+.showcase::after {
+  content: '';
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 50%;
+  margin-top: 105px;
+  margin-left: -145px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+.content .logo {
+  height: 180px;
+  width: 180px;
+}
+
+.content .title {
+  font-size: 2.2rem;
+  margin-top: 1rem;
+}
+
+.content .text {
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.bg-light {
+  background: #AC3A4B;
+  color: #333;
+}
+
+.bg-dark {
+  background: #3AAC9B;
+  color: #f4f4f4;
+}
+
+footer {
+  padding: 2.2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Small Screens */
+@media (max-width: 560px) {
+  .showcase::after {
+    height: 50vh;
+  }
+
+  .content {
+    top: 5%;
+    margin-top: 5px;
+  }
+
+  .content .logo {
+    height: 140px;
+    width: 140px;
+  }
+
+  .content .text {
+    display: none;
+  }
+
+  .grid-3,
+  {
+    grid-template-columns: 1fr;
+  }
+
+  .services div {
+    border-bottom: #333 dashed 1px;
+    padding: 1.5rem 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    position: relative !important;
+    -webkit-filter: blur(0px) !important;
+    margin-top: 15px;
+  }
+
+}
+
+/* Landscape */
+@media (max-height: 400px) {
+  .content .title,
+  .content .text, {
+    display: none;
+  }
+
+  .content {
+    top: 0;
+  }
+}
+
+#xyz:hover {
+  background-color: #5e7571 !important;
+}
+
+@media (max-width: 992px) {
+  #abc {
+    display: none !important;
+  }
+
+}
+
+#ML {
+  align-content: left;
+  padding-top: 80px; !important;
+}
+
+#Collaborators {
+  padding-top: 80px;
+}
+
+#Features {
+  padding-top: 80px;
+}
+
+#Background {
+  padding-top: 80px;
+}
+
+#arch {
+  border-style: solid;
+  border-color: #333;
+  border-width: 10px;
+}
