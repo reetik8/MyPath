@@ -4,7 +4,13 @@ body {
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-top: 80px;
+  font-size: 1.2rem;
 }
+ 
+h5 {
+  font-size: 22px;
+}
+
 
 .showcase::after {
   content: '';
@@ -35,7 +41,7 @@ body {
 }
 
 .content .title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
 }
 
@@ -136,9 +142,18 @@ footer p {
   background-color: #5e7571 !important;
 }
 
+
 @media (max-width: 992px) {
   #abc {
     display: none !important;
+  }
+
+  .menu {
+    overflow: hidden !important;
+  }
+
+  #NavChange {
+  background-color: rgb(43 46 49) !important;
   }
 
 }
@@ -164,4 +179,10 @@ footer p {
   border-style: solid;
   border-color: #333;
   border-width: 10px;
+}
+
+#ul-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
