@@ -116,16 +116,14 @@ footer p {
     padding: 1.5rem 1rem;
   }
 }
-
-@media screen and (max-width: 600px) {
-  .content {
-    position: relative !important;
-    -webkit-filter: blur(0px) !important;
-    margin-top: 15px;
-  }
-
+a h3{
+  color: black;
+  text-decoration: underline;
 }
 
+a h3:hover{
+  color: #4bd6d2;
+}
 /* Landscape */
 @media (max-height: 400px) {
   .content .title,
@@ -142,6 +140,9 @@ footer p {
   background-color: #5e7571 !important;
 }
 
+#noPad {
+  padding-top: 0px;
+}
 
 @media (max-width: 992px) {
   #abc {
@@ -150,10 +151,6 @@ footer p {
 
   .menu {
     overflow: hidden !important;
-  }
-
-  #NavChange {
-  background-color: rgb(43 46 49) !important;
   }
 
 }
@@ -181,7 +178,7 @@ footer p {
   border-width: 10px;
 }
 
-#ul-nav {
+#ul-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
