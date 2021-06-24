@@ -1,4 +1,6 @@
 // MyPath
+// Reetik Chandra
+// USS 2021
 
 function resize() {
     if ( $(window).width() < 400) {     
@@ -28,9 +30,9 @@ $( '.menu a' ).on("click", function(){
 
 
 
-$(window).on("resize", resize);
+// $(window).on("resize", resize);
 // $(window).on("resize", reNav);
 
-resize(); // call once initially
+// resize(); // call once initially
 // reNav(); // call once initially
 
