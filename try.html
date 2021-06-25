@@ -47,7 +47,7 @@ MyPath Website
         <ul class="navbar-nav mr-auto menu" id= "ul-nav">
         
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md shadow-3 active" href="">About Us</a>
+            <a class="nav-link bg-dark col-md active" href="try.html#Updates">Updates</a>
           </li>
 
           <li class="nav-item col-md">
@@ -65,9 +65,9 @@ MyPath Website
           <li class="nav-item col-md">
             <a class="nav-link bg-dark col-md active" href="try.html#Collaborators">Collaborators</a>
           </li>
-        
+
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active" href="try.html#Updates">Updates</a>
+            <a class="nav-link bg-dark col-md shadow-3 active" href="">About Us</a>
           </li>
 
         </ul>
@@ -81,9 +81,11 @@ MyPath Website
 
     <section class="about bg-light">
       <div class="container">
-        <div class="center">
-          <h2 class="font-weight-bold">MyPath</h2>
+        <div class="center col-md-8">
+          <img src="favicon2.png" class="img-fluid mx-auto" id="logo">
+          <h2 class="font-weight-bold mx-auto">MyPath</h2>
           <h5>Identifying Surface Characteristics for Generating Personalized Accessible Routes for Wheelchair Users through Participatory Sensing </h5>
+
         </div>
       </div>
     </section>
@@ -92,7 +94,12 @@ MyPath Website
       <div class="container center" id="Updates">
         <h3>Latest Updates</h3>
         
-        <p class="text-justify"> Recently the paper for MyPath has been approved at .... (Something Like This)</p>
+        <p class="text-justify"> The recent updates made to the project include-
+            <ul>
+              <li></li>
+              <li></li>
+            </ul>
+        </p>
       
       </div>
     </section>
@@ -116,6 +123,47 @@ MyPath Website
       </div>
     </section>
 
+    <section class="services bg-light">
+      <div class="container">
+        <h3 class="font-weight-bold center">Goals</h3>
+        
+        <p class="text-justify">Performing highly interdisciplinary and integrative research <br> Expertise of MyPath Team Members:
+                <li>Systems Development</li>    
+                <li>AI and Machine Learning</li>
+                <li>Rehabilitation Engineering and Occupational Sciences</li>
+                <li>Civil engineering</li>
+                <li>Accessibility and Usability</li>
+        </p>
+        <p class="text-justify"> Aiming sustainable change of community functioning <br>
+                <li>Encouraging willing wheelchair users to participate in the community</li>
+                <li>Assisting in successful outing</li>
+                <li>Enabling local administrative communities maintain accessible routes</li>
+        </p>
+      
+      </div>
+    </section>
+
+    <section class="services bg-dark">
+      <div class="container center">
+        <h3 class="font-weight-bold">Diversity, Equity, and Inclusion Statement</h3>
+        
+        <p class="text-justify">The MyPath project aims to address the diversity and inclusion objective keeping up with Miami University’s broader diversity and inclusion efforts. Furthermore, the research area proposed here is covered under the United Nations Envision 2030, Goal 10 & 11 which speak to Reduce Inequalities and plans to include persons with disabilities in every sphere of life by 2030. 
+          
+          <ul> UN Target Objectives:
+            <li class="text-justify"> <b>Target 10.2: </b> “By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion, economic or other status.”</li>
+            
+            <li class="text-justify"> <b>Target 11.2: </b>  “By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, … with special attention to the needs of …, women, children, persons with disabilities and older persons.”</li>
+            
+            <li class="text-justify"> <b>Target 11.7: </b>  “By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.</li>
+          </ul>
+
+          <div class="col-md-5" style="display: inline-flex;"><img src="un-10.png" class="img-fluid mx-auto"></div>
+          <div class="col-md-5" style="display: inline-flex;"><img src="un-11.png" class="img-fluid mx-auto"></div>
+        
+        </p>
+    
+      </div>
+    </section>
 
     <section class="services bg-light">
       <div class="container center" id="Background">
@@ -400,6 +448,23 @@ MyPath Website
           <h4>Image Processing</h4>
           
           <p class="text-justify">We decided to build up our model base on Deeplabv3 and Resnet101. First we prepare the Images and masks data and set them up for training, then we run the training process of our model and finally we evaluate our predictions and model performances. Finally we are able to cut down the loss to around 0.3 level and we are able to add this new feature to our project. </p>
+
+          <p class="text-justify"> Mainstream  Methodologies for Image Classification: 
+            <ul>
+              <li>Pure Image Classification</li>
+              <li>Pixel-level Segmentation</li>
+              <li>Object Detection Based Methods</li>
+            </ul>
+          </p>
+
+          <p class="text-justify">Crack Detection Methodologies:
+            <ul>
+              <li>Binary Patterns</li>
+              <li>Gabor Filter</li>
+              <li>Shape Based Methods</li>
+              <li>Tree Structure Algorithms</li>
+            </ul>
+          </p>
       
           <br>
 
@@ -409,6 +474,7 @@ MyPath Website
 
           <p>
             <ol class="text-left">
+
               <li>The Front-end client sends a query to our server, including the coordinates of start, endpoint, and other information. </li>
               
               <li>Calculate accessibility scores based on various road information and user information.
@@ -419,12 +485,10 @@ MyPath Website
               </li>
 
               <li>Assign weights to roads based on calculated accessibility scores. </li>
-              
               <li>Generate 2 routes based on those assigned scores. </li>
-              
               <li>Import and modify the Graphhopper API. </li>
-              
               <li>Send outcome results back to the front end client. </li>
+
             </ol>
           </p>
         </div>

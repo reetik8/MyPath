@@ -151,11 +151,18 @@ a h3:hover{
   padding-top: 80px;
 }
 
-/*#arch {
+/*
+#arch {
   border-style: solid;
   border-color: #333;
   border-width: 10px;
 }*/
+
+#logo {
+  border-style: solid;
+  border-color: #333;
+  border-width: 10px;
+}
 
 #ul-nav{
   display: flex;
