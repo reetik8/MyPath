@@ -34,7 +34,7 @@ MyPath Website
   
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="NavChange">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top cc1" id="NavChange">
       
       <a class="navbar-brand shadow-3" href="">MyPath</a>
 
@@ -47,28 +47,32 @@ MyPath Website
         <ul class="navbar-nav mr-auto menu" id= "ul-nav">
         
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active" href="try.html#Updates">Updates</a>
+            <a class="nav-link bg-dark col-md active cc1" href="try.html#Updates">Updates</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active" href="try.html#Background">Background</a>
+            <a class="nav-link bg-dark col-md active cc1" href="try.html#Background">Background</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active" href="try.html#Features">Features</a>
+            <a class="nav-link bg-dark col-md active cc1" href="try.html#Features">Features</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark active" href="try.html#ML">Machine Learning</a>
+            <a class="nav-link bg-dark active cc1" href="try.html#ML">Machine Learning</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active" href="try.html#Collaborators">Collaborators</a>
+            <a class="nav-link bg-dark col-md active cc1" href="try.html#Collaborators">Collaborators</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md shadow-3 active" href="">About Us</a>
+            <a class="nav-link bg-dark col-md shadow-3 active" href="" id="cc1">About Us</a>
           </li>
+
+<!--           <li class="nav-item col-md">
+            <button onclick="changeColor()"> Color</button>
+          </li> -->
 
         </ul>
         
@@ -79,7 +83,7 @@ MyPath Website
     </nav>
 
 
-    <section class="about bg-light">
+    <section class="about bg-light cc2">
       <div class="container">
         <div class="center col-md-8">
           <img src="favicon2.png" class="img-fluid mx-auto" id="logo">
@@ -90,7 +94,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark">
+    <section class="services bg-dark cc1">
       <div class="container center" id="Updates">
         <h3>Latest Updates</h3>
         
@@ -104,7 +108,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light">
+    <section class="services bg-light cc2">
       <div class="container center">
         <h3 class="font-weight-bold">Purpose</h3>
         
@@ -114,40 +118,41 @@ MyPath Website
     </section>
 
 
-    <section class="services bg-dark">
+    <section class="services bg-dark cc1">
       <div class="container center">
         <h3 class="font-weight-bold">Motivation</h3>
         
-        <p class="text-justify"> Welcome to our MyPath project. The purpose of our project is to build an accessible routing and navigation system for wheelchair users to get to their destination from any source location. We determine accessible routes by classifying surfaces from vibration data. In existing mapping systems, the developers rarely consider the experience of the persons with disabilities in most cases. For example, wheelchair users may encounter steep slopes or other barriers in the built environment which they cannot overcome, or uneven road surfaces and broken sidewalks that are not suitable for wheeled navigation. In order to solve this problem and improve the user experience of wheelchair users, we proposed our MyPath solution. We analye and classify the data collected by sensors and then using the ML model to predict any new surface data available during the testing phase of the system. The road surface information is then updated in a research--oriented open-source mapping system known as the OpenStreetMap (OSM). Finally, we will combine the user's personalized requirements and the accessibility of each road to generate an accessible route for wheelchair users through use of Graphhopper API which is a dedicated routing engine for the OSM.</p>
+        <p class="text-justify"> Welcome to the MyPath project. The purpose of this project is to build an accessible routing and navigation system for wheelchair users to get to their destination from any source location. We determine accessible routes by classifying surfaces from vibration data. In existing mapping systems, the developers rarely consider the experience of the persons with disabilities in most cases. For example, wheelchair users may encounter steep slopes or other barriers in the built environment which they cannot overcome, or uneven road surfaces and broken sidewalks that are not suitable for wheeled navigation. In order to solve this problem and improve the user experience, we proposed the MyPath solution. We analyze and classify the data collected by sensors and then using the ML model to predict any new surface data available during the testing phase of the system. The road surface information is then updated in a research-oriented open-source mapping system known as the OpenStreetMap (OSM). Finally, we combine the user's personalized requirements and the accessibility of each road to generate an accessible route for wheelchair users through the use of Graphhopper API which is a dedicated routing engine for the OSM.</p>
       
       </div>
     </section>
 
-    <section class="services bg-light">
+    <section class="services bg-light cc2">
       <div class="container">
         <h3 class="font-weight-bold center">Goals</h3>
         
-        <p class="text-justify">Performing highly interdisciplinary and integrative research <br> Expertise of MyPath Team Members:
+        <p class="text-justify">Performing highly interdisciplinary and integrative research. <br> Expertise of MyPath Team Members include:
                 <li>Systems Development</li>    
                 <li>AI and Machine Learning</li>
                 <li>Rehabilitation Engineering and Occupational Sciences</li>
-                <li>Civil engineering</li>
+                <li>Civil Engineering</li>
                 <li>Accessibility and Usability</li>
         </p>
-        <p class="text-justify"> Aiming sustainable change of community functioning <br>
-                <li>Encouraging willing wheelchair users to participate in the community</li>
-                <li>Assisting in successful outing</li>
-                <li>Enabling local administrative communities maintain accessible routes</li>
+
+        <p class="text-justify"> Aiming at sustainable change of community functioning by: <br>
+                <li>Encouraging willing wheelchair users to participate in the community.</li>
+                <li>Assisting wheelchair users in successful outing.</li>
+                <li>Enabling local administrative communities in maintaining accessible routes.</li>
         </p>
       
       </div>
     </section>
 
-    <section class="services bg-dark">
+    <section class="services bg-dark cc1">
       <div class="container center">
         <h3 class="font-weight-bold">Diversity, Equity, and Inclusion Statement</h3>
         
-        <p class="text-justify">The MyPath project aims to address the diversity and inclusion objective keeping up with Miami University’s broader diversity and inclusion efforts. Furthermore, the research area proposed here is covered under the United Nations Envision 2030, Goal 10 & 11 which speak to Reduce Inequalities and plans to include persons with disabilities in every sphere of life by 2030. 
+        <p class="text-justify">The MyPath project aims to address the diversity and inclusion objective keeping up with Miami University’s broader diversity and inclusion efforts. Furthermore, the research area proposed here is covered under the United Nations Envision 2030, Goal 10 & 11 which strives to Reduce Inequalities and plans to include people with disabilities in every sphere of life by 2030. 
           
           <ul> UN Target Objectives:
             <li class="text-justify"> <b>Target 10.2: </b> “By 2030, empower and promote the social, economic and political inclusion of all, irrespective of age, sex, disability, race, ethnicity, origin, religion, economic or other status.”</li>
@@ -165,28 +170,29 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light">
+    <section class="services bg-light cc2">
       <div class="container center" id="Background">
+   
         <h3 class="font-weight-bold">Background</h3>
         
-        <p class="text-justify"> The wide variation in user-wheelchair-environment combinations. It is simply impossible to collect data from every different type of user on all possible types of wheelchairs covering all the different surfaces of the world. Therefore, we applied a two-pronged approach to solve this problem. We use a sensor-based data collection and path classification module for training our system on certain amounts of data. We use that data and knowledge to deduce information about other types of users, wheelchairs and surfaces. This project gives a very basic idea of knowledge transfer by the use of transfer learning techniques. Aslo, in response to the darth of a significant amount of sensor generated surface data, we have employed an image based surface classification system in this work. We collected surface images using a car-mounted Go-Pro camera and classified surfaces using a large set of images which we used to train another machine learning model. Machine learning is a method of data analysis that allows you to learn data iteratively and analyze models. Machine learning plays a big role in MyPath projects because we need to analyze the wheelchair travel of a large number of users. When the model encounters new data, we need to use iterations to guide the machine to adapt to the new data independently.</p>
+        <p class="text-justify"> Due to the wide variation in user-wheelchair-environment combinations, it is simply impossible to collect data from every different type of user on all possible types of wheelchairs covering all the different surfaces of the world. Therefore, we applied a two-pronged approach to solve this problem. We use a sensor-based data collection and path classification module for training the system on certain amounts of data. We use that data and knowledge to deduce information about other types of users, wheelchairs and surfaces. This project gives a very basic idea of knowledge transfer by the use of transfer learning techniques. Also, in response to the darth of a significant amount of sensor generated surface data, we have employed an image based surface classification system in this work. We collected surface images using a car-mounted Go-Pro camera and classified surfaces using a large set of images which we used to train another machine learning model. Machine learning is a method of data analysis that allows you to learn data iteratively and analyze models. Machine learning plays a big role in MyPath project because we need to analyze the wheelchair travel of a large number of users. When the model encounters new data, we need to use iterations to guide the machine to adapt to the new data independently.</p>
       
       </div>
     </section>
 
-    <section class="services bg-dark"  id="Features">
+    <section class="services bg-dark cc1"  id="Features">
       <div class="container center row" id="change">
         <div class="col-md-4 text-center">
           <h3>Target Audience</h3>
           
-          <p class="text-justify">The project’s target audience is people with disabilities which affect their physical movement (i.e. people who use wheelchairs, crutches, etc). The app, however, can be used by anyone in the general public.</p>
+          <p class="text-justify">The project’s target audience is people with disabilities which affect their physical movement (i.e. people who use wheelchairs, crutches, etc). The app, however, can be used by anyone in the general public since it will help the user to navigate from point A to point B by giving an accessibl route to them.</p>
         
         </div>
 
         <div class="col-md-4 text-center">
           <h3>Stand-out Features</h3>
           
-          <p class="text-justify">Route is determined by an algorithm that takes the user’s personal physical information as well as their ASIA score into account. <br> Users contribute directly to the algorithm by contributing information such as geolocation and sensors. </p>
+          <p class="text-justify">The route is determined by an algorithm that takes the user’s personal physical information as well as their ASIA (American Spinal Injury Association) Impairment Scale score into account. <br> Users contribute directly to the algorithm by contributing information such as geolocation and sensors. </p>
         
         </div>
         
@@ -199,7 +205,7 @@ MyPath Website
       </div>
     </section>
     
-    <section class="services bg-light">
+    <section class="services bg-light cc2">
       <div class=" container center ">
         <h3 class="font-weight-bold">Client Side Working of the App </h3>
         
@@ -208,7 +214,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark">
+    <section class="services bg-dark cc1">
       
       <div class= " container center">
         <h3 class="font-weight-bold">Architecture of MyPath Project</h3>
@@ -223,7 +229,7 @@ MyPath Website
     </section>
 
     
-    <section class="services bg-gradient bg-light" id="Collaborators">
+    <section class="services bg-gradient bg-light cc2" id="Collaborators">
       
       <div class="text-center">
         <h2 class="font-weight-bold">Collaborators</h2>
@@ -259,7 +265,7 @@ MyPath Website
     </section>
     
 
-    <section class="services bg-gradient bg-dark">
+    <section class="services bg-gradient bg-dark cc1">
 
       <h2 class= "center">Student Collaborators</h2>
       <div class=" container center row">
@@ -375,7 +381,7 @@ MyPath Website
 
     </section>
    
-    <section class="services bg-light">
+    <section class="services bg-light cc2">
       
       <div class="container center" id="ML">
       
@@ -384,17 +390,17 @@ MyPath Website
 
         <h4>Sensor Data</h4>
         
-        <p class="text-justify">The road surfaces which users are able to access with a wheelchair, we have used sensor data to train our ML model. In machine learning code, we used 80% supervised learning and 20% unsupervised learning for all models. We decided to use Random Forests(RF) and Artificial Neural Networks(ANN) as final machine learning models. Although deep learning is more expensive, we have still chosen deep learning because machine learning is only a simple level of extraction of feature extraction, and some information with discrimination cannot be extracted effectively. Some models need to be artificially designed or applied to certain features as input to machine learning. After model decision, we have used transfer learning to transfer manual wheelchair dataset to power wheelchair dataset. The reason we used transfer learning is there is significant difference between the two datasets. <br> Here are the various models we used: </p>
+        <p class="text-justify">We have used sensor data to train the ML model on the road surfaces which users access with a wheelchair. In the Machine Learning code, we use 80% supervised learning and 20% unsupervised learning for all models. We have decided to use Random Forests(RF) and Artificial Neural Networks(ANN) as the final Machine Learning Models. Although deep learning is more expensive, we have still chosen deep learning because machine learning provides only a simple level of feature extraction, and some information with discrimination cannot be extracted effectively. Some models need to be artificially designed or applied to certain features as input to the Machine Learning model. After model decision, we have used Transfer Learning to transfer manual wheelchair dataset to power wheelchair dataset. The reason we used transfer learning is that there is a significant difference between the two datasets. <br> Here are the various models we used: </p>
         
         <br>
 
       </div>
     </section>
 
-    <section class="services bg-dark">
+    <section class="services bg-dark cc1">
       <div class="container center" id="noPad">
     
-        <h3 class="text-center">Machine Learning Models</h3>
+        <h3 class="text-center" style="text-decoration: underline;">Machine Learning Models</h3>
         <div class="text-right">  
           
           <p>Logistic Regression (LR) </p>                       
@@ -409,7 +415,7 @@ MyPath Website
         
         <br>
 
-        <h3 class="text-center">Deep Learning Models</h3>    
+        <h3 class="text-center" style="text-decoration: underline;">Deep Learning Models</h3>    
         <div class="text-right">
         
           <p>Artificial Neural Network (ANN) </p>
@@ -420,7 +426,7 @@ MyPath Website
         
         <br>
 
-        <h3 class="text-center">Transfer Learning Models</h3>
+        <h3 class="text-center" style="text-decoration: underline;">Transfer Learning Models</h3>
         <div class="text-right">
         
           <p>Adaboost Algorithm based on fixed layers of ANN model </p>
@@ -431,11 +437,11 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light">
+    <section class="services bg-light cc2">
       <div class="container center">
           <h3 class="font-weight-bold">Idea of Image Data</h3>
           
-          <p class="text-justify">Sometimes the users are not able to access wheelchair, thus we have implemented another approach to evaluate accessibility by using images collected from many different accessible surfaces to train a computer vision based model. </p>
+          <p class="text-justify">Sometimes the users are not able to access the wheelchair, thus we have implemented another approach to evaluate accessibility by using images collected from many different accessible surfaces to train a computer vision based model. </p>
         
           <br>
 
@@ -447,7 +453,7 @@ MyPath Website
 
           <h4>Image Processing</h4>
           
-          <p class="text-justify">We decided to build up our model base on Deeplabv3 and Resnet101. First we prepare the Images and masks data and set them up for training, then we run the training process of our model and finally we evaluate our predictions and model performances. Finally we are able to cut down the loss to around 0.3 level and we are able to add this new feature to our project. </p>
+          <p class="text-justify">We have decided to build up the model base on Deeplabv3 and Resnet101. First, we prepare the images and mask data and set them up for training, then we run the training process of the model and finally we evaluate the predictions and model performances. After that we are able to cut down the loss to around 0.3 level and we are able to add this new feature to the project. </p>
 
           <p class="text-justify"> Mainstream  Methodologies for Image Classification: 
             <ul>
@@ -475,7 +481,7 @@ MyPath Website
           <p>
             <ol class="text-left">
 
-              <li>The Front-end client sends a query to our server, including the coordinates of start, endpoint, and other information. </li>
+              <li>The Front-end client sends a query to the server, including the coordinates of start, endpoint, and other information. </li>
               
               <li>Calculate accessibility scores based on various road information and user information.
                 <ul>
@@ -484,10 +490,10 @@ MyPath Website
                 </ul>
               </li>
 
-              <li>Assign weights to roads based on calculated accessibility scores. </li>
+              <li>Assign weights to roads based on the calculated accessibility scores. </li>
               <li>Generate 2 routes based on those assigned scores. </li>
               <li>Import and modify the Graphhopper API. </li>
-              <li>Send outcome results back to the front end client. </li>
+              <li>Send outcome results back to the front-end client. </li>
 
             </ol>
           </p>
@@ -496,7 +502,7 @@ MyPath Website
     </section>
 
 
-    <footer class="center bg-dark">
+    <footer class="center bg-dark cc1">
       
       <p>Miami University</p>
       <p>MyPath &copy; 2021</p>
