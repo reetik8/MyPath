@@ -1,0 +1,171 @@
+/*
+  MyPath
+  Reetik Chandra
+  USS 2021
+*/
+
+body {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 80px;
+  font-size: 1.2rem;
+}
+ 
+h5 {
+  font-size: 22px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 4rem 1rem;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.bg-light {
+  color: #333;
+}
+
+.bg-alt1 {
+  background: #3A8086;
+  color: #f4f4f4;
+}
+
+.bg-alt2 {
+  background: #B7EAEE;
+  color: #333;
+}
+
+.bg-dark {
+  color: #f4f4f4;
+}
+
+footer {
+  padding: 2.2rem;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Small Screens */
+@media (max-width: 560px) {
+  .showcase::after {
+    height: 50vh;
+  }
+
+  .content {
+    top: 5%;
+    margin-top: 5px;
+  }
+
+  .content .logo {
+    height: 140px;
+    width: 140px;
+  }
+
+  .content .text {
+    display: none;
+  }
+
+  .services div {
+    border-bottom: #333 dashed 1px;
+    padding: 1.5rem 1rem;
+  }
+}
+
+.bg-light a h3{
+  color: black;
+  text-decoration: underline;
+}
+
+.bg-alt1 a h3{
+  text-decoration: underline;
+}
+
+.bg-alt2 a h3{
+  color: #6A38B6;
+  color: black;
+  text-decoration: underline;
+}
+
+a h3:hover{
+  color: #0e5e5c;
+}
+/* Landscape */
+@media (max-height: 400px) {
+  .content .title,
+  .content .text, {
+    display: none;
+  }
+
+  .content {
+    top: 0;
+  }
+}
+
+#xyz:hover {
+  background-color: #5e7571 !important;
+}
+
+#noPad {
+  padding-top: 0px;
+}
+
+@media (max-width: 992px) {
+  #abc {
+    display: none !important;
+  }
+
+  .menu {
+    overflow: hidden !important;
+  }
+
+}
+
+#ML {
+  align-content: left;
+  padding-top: 80px; !important;
+}
+
+#Collaborators {
+  padding-top: 80px;
+}
+
+#Features {
+  padding-top: 80px;
+}
+
+#Background {
+  padding-top: 80px;
+}
+
+#Updates {
+  padding-top: 80px;
+}
+
+/*
+#arch {
+  border-style: solid;
+  border-color: #333;
+  border-width: 10px;
+}*/
+
+#logo {
+  border-style: solid;
+  border-color: #333;
+  border-width: 10px;
+}
+
+#ul-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
