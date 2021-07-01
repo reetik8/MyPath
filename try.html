@@ -111,6 +111,11 @@ MyPath Website
     <section class="services bg-light cc2">
       <div class="container center">
         <h3 class="font-weight-bold">Purpose</h3>
+
+        <figure>
+          <img src="images/img001.png" alt="Poster" width="100%" height="80%" id="path">
+          <figcaption></figcaption>
+        </figure>
         
         <p class="text-justify"> MyPath’s vision is to provide users with customized paths between destinations. The paths are ideally customized by taking the user’s personal information into account. This allows the route provided to avoid certain barriers (i.e. fallen trees for users that may not be able to go over or around them), include specific facilities (i.e. curb cuts for wheelchair users), and avoid unsafe conditions (i.e. terrain that may be difficult for some users to physically navigate). MyPath hopes to crowdsource information to allow for a better algorithm and more real-time updates, allowing users more independence than they may have had in the past.</p>
       
@@ -120,6 +125,7 @@ MyPath Website
 
     <section class="services bg-dark cc1">
       <div class="container center">
+
         <h3 class="font-weight-bold">Motivation</h3>
         
         <p class="text-justify"> Welcome to the MyPath project. The purpose of this project is to build an accessible routing and navigation system for wheelchair users to get to their destination from any source location. We determine accessible routes by classifying surfaces from vibration data. In existing mapping systems, the developers rarely consider the experience of the persons with disabilities in most cases. For example, wheelchair users may encounter steep slopes or other barriers in the built environment which they cannot overcome, or uneven road surfaces and broken sidewalks that are not suitable for wheeled navigation. In order to solve this problem and improve the user experience, we proposed the MyPath solution. We analyze and classify the data collected by sensors and then using the ML model to predict any new surface data available during the testing phase of the system. The road surface information is then updated in a research-oriented open-source mapping system known as the OpenStreetMap (OSM). Finally, we combine the user's personalized requirements and the accessibility of each road to generate an accessible route for wheelchair users through the use of Graphhopper API which is a dedicated routing engine for the OSM.</p>
@@ -162,8 +168,8 @@ MyPath Website
             <li class="text-justify"> <b>Target 11.7: </b>  “By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities.</li>
           </ul>
 
-          <div class="col-md-5" style="display: inline-flex;"><img src="images/un-10.png" class="img-fluid mx-auto"></div>
-          <div class="col-md-5" style="display: inline-flex;"><img src="images/un-11.png" class="img-fluid mx-auto"></div>
+          <div class="col-md-5" style="display: inline-flex; width: 70%;"><img src="images/un-10.png" class="img-fluid mx-auto"></div>
+          <div class="col-md-5" style="display: inline-flex; width: 70%;"><img src="images/un-11.png" class="img-fluid mx-auto"></div>
         
         </p>
     
@@ -224,6 +230,30 @@ MyPath Website
           <img src="images/wheelshareArch.png" alt="Poster" width="100%" height="80%" id="arch">
           <figcaption></figcaption>
         </figure>
+        <br>
+
+<!-- 
+        <p>
+          Surface Specific Data Collection. <br> Data Collection Query , Data Collection Response.
+        </p>
+
+        <p>
+          Accessible Routing and Navigation (Map My Route) <br> Accessible ROute Query ,  Accessible Route Response.
+        </p> -->
+
+        <h3 class="font-weight-bold">MyPath - The Bigger Picture</h3>
+        <small>Dimension of the Problem</small>
+
+        <figure>
+          <img src="images/img007.png" alt="Poster" width="100%" height="80%" id="pyramid">
+          <figcaption></figcaption>
+        </figure>
+        <br>
+
+        <p class="text-justify">
+          In order to provide individuals with restricted mobility the opportunity to travel more efficiently, various systems have proposed modeling techniques and routing algorithms that handle accessible navigation through the built environment which is otherwise dotted with mobility barriers. Such systems use data gathered from smartphone sensors or crowd-sourcing to pinpoint the location of the barriers as well as the facilities, such as crosswalks with traffic signals or access ramps to curbs. Though the previous works have identified the type of surface and incline to be important features to determine accessibility, no extensive empirical research exists on how these parameters affect navigation. In order to address this problem, we propose to build a novel system called WheelShare, which uses machine learning to classify surfaces into accessible or otherwise and uses that knowledge to generate accessible routes for wheelchair users. We have trained our system with accelerometer and gyroscope data obtained from 26 different surfaces found frequently in indoor and outdoor environments across Europe and USA. More data is collected by the system through crowd-sourcing based contribution from interested users. Our evaluation shows that WheelShare can achieve an accuracy of up to 96% in identifying surfaces in one of the 5 different accessibility classes. Overall, WheelShare is a novel, scalable and data-centric approach to objectively identify the accessible features of a surface and can generate end-to-end routes for wheelchair users using frequently updated crowd-sourced information.
+        </p>
+
       </div>
 
     </section>
@@ -512,3 +542,9 @@ MyPath Website
 
   </body>
 </html>
+
+<!--
+  Things left to do- 
+  ML Diagrams/ Charts (maybe)
+  More High Resoluion images
+  -->
