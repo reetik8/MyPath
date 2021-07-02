@@ -247,3 +247,9 @@ a h3:hover{
 #MLSection p {
   text-align: justify;
 }
+
+.UNG {
+  display: inline-flex; 
+  width: 70%; 
+  height: 80%;
+}
