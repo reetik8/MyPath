@@ -139,7 +139,7 @@ a h3:hover{
   padding-top: 80px;
 }
 
-#Features {
+#FeaturesSection {
   padding-top: 80px;
 }
 
@@ -168,4 +168,17 @@ a h3:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#ModelsSection h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#ModelsSection div {
+    text-align: right;
+}
+
+#ImageDataSection p, ul {
+  text-align: justify;
 }
