@@ -182,3 +182,68 @@ a h3:hover{
 #ImageDataSection p, ul {
   text-align: justify;
 }
+
+#UpdateSection p {
+  text-align: justify;
+}
+
+#PurposeSection p {
+  text-align: justify;
+}
+
+#MotivationSection p {
+  text-align: justify;
+}
+
+#GoalsSection p {
+  text-align: justify;
+}
+
+#DEISection h3 {
+  font-weight: bold;
+}
+
+#BackgroundSection h3 {
+  font-weight: bold;
+}
+
+#BackgroundSection p {
+  text-align: justify;
+}
+
+#FeaturesSection p {
+  text-align: justify;
+}
+
+#WorkSection h3 {
+  font-weight: bold;
+}
+
+#WorkSection p {
+  text-align: justify;
+}
+
+#ArchitectureSection h3 {
+  font-weight: bold;
+}
+
+#ArchitectureSection p {
+  text-align: justify;
+}
+
+#CollaboratorsSection h2 {
+  font-weight: bold;
+}
+
+#StudenCollaboratorsSection h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+#MLSection h2 {
+  font-weight: bold;
+}
+
+#MLSection p {
+  text-align: justify;
+}
