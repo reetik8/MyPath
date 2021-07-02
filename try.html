@@ -34,7 +34,7 @@ MyPath Website
   
   <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top cc1" id="NavChange">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top " id="NavChange">
       
       <a class="navbar-brand shadow-3" href="">MyPath</a>
 
@@ -47,35 +47,38 @@ MyPath Website
         <ul class="navbar-nav mr-auto menu" id= "ul-nav">
         
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active cc1" href="try.html#Updates">Updates</a>
+            <a class="nav-link bg-dark col-md active " href="try.html#Updates">Updates</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active cc1" href="try.html#Background">Background</a>
+            <a class="nav-link bg-dark col-md active " href="try.html#Background">Background</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active cc1" href="try.html#Features">Features</a>
+            <a class="nav-link bg-dark col-md active " href="try.html#Features">Features</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark active cc1" href="try.html#ML">Machine Learning</a>
+            <a class="nav-link bg-dark active " href="try.html#ML">Machine Learning</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md active cc1" href="try.html#Collaborators">Collaborators</a>
+            <a class="nav-link bg-dark col-md active " href="try.html#Collaborators">Collaborators</a>
           </li>
 
           <li class="nav-item col-md">
-            <a class="nav-link bg-dark col-md shadow-3 active" href="" id="cc1">About Us</a>
+            <a class="nav-link bg-dark col-md shadow-3 active" href="" id="">About Us</a>
           </li>
 
-<!--           <li class="nav-item col-md">
+<!-- A functionality to change the color of the website. Like a "Switch to Dark Mode /  Switch to Color Mode" option     
+          <li class="nav-item col-md">
             <button onclick="changeColor()"> Color</button>
-          </li> -->
+          </li> 
+-->
 
         </ul>
         
+        <!--The image to the right of the navbar which disappears when the tab is shrunk and the hamburger option pops up-->      
         <img src="images/favicon2.png" id="abc" width="5%" height="5%" alt="code">
       
       </div>
@@ -83,10 +86,13 @@ MyPath Website
     </nav>
 
 
-    <section class="about bg-light cc2">
+    <section class="services bg-light" id="CenterLogoSection">
       <div class="container">
         <div class="center col-md-8">
+
+          <!-- The center logo-->
           <img src="images/favicon2.png" class="img-fluid mx-auto" id="logo">
+          
           <h2 class="font-weight-bold mx-auto">MyPath</h2>
           <h5>Identifying Surface Characteristics for Generating Personalized Accessible Routes for Wheelchair Users through Participatory Sensing </h5>
 
@@ -94,7 +100,8 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark cc1">
+    <!--Section to write the updates to the project as a whole-->
+    <section class="services bg-dark" id="UpdateSection">
       <div class="container center" id="Updates">
         <h3>Latest Updates</h3>
         
@@ -108,7 +115,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light cc2">
+    <section class="services bg-light" id="PurposeSection">
       <div class="container center">
         <h3 class="font-weight-bold">Purpose</h3>
 
@@ -123,7 +130,7 @@ MyPath Website
     </section>
 
 
-    <section class="services bg-dark cc1">
+    <section class="services bg-dark" id="MotivationSection">
       <div class="container center">
 
         <h3 class="font-weight-bold">Motivation</h3>
@@ -133,7 +140,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light cc2">
+    <section class="services bg-light" id="GoalsSection">
       <div class="container">
         <h3 class="font-weight-bold center">Goals</h3>
         
@@ -154,7 +161,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark cc1">
+    <section class="services bg-dark" id="DEISection">
       <div class="container center">
         <h3 class="font-weight-bold">Diversity, Equity, and Inclusion Statement</h3>
         
@@ -176,7 +183,7 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light cc2">
+    <section class="services bg-light" id="BackgroundSection">
       <div class="container center" id="Background">
    
         <h3 class="font-weight-bold">Background</h3>
@@ -186,8 +193,8 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark cc1"  id="Features">
-      <div class="container center row" id="change">
+    <section class="services bg-dark "  id="FeaturesSection">
+      <div class="container center row" id="Features">
         <div class="col-md-4 text-center">
           <h3>Target Audience</h3>
           
@@ -211,7 +218,7 @@ MyPath Website
       </div>
     </section>
     
-    <section class="services bg-light cc2">
+    <section class="services bg-light" id="WorkSection">
       <div class=" container center ">
         <h3 class="font-weight-bold">Client Side Working of the App </h3>
         
@@ -220,9 +227,9 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark cc1">
+    <section class="services bg-dark" id="ArchitectureSection">
       
-      <div class= " container center">
+      <div class= "container center">
         <h3 class="font-weight-bold">Architecture of MyPath Project</h3>
 
         <small>Zoom in to see the various steps associated with the project</small>
@@ -232,7 +239,7 @@ MyPath Website
         </figure>
         <br>
 
-<!-- 
+<!--    When needed to specify each individual Section 
         <p>
           Surface Specific Data Collection. <br> Data Collection Query , Data Collection Response.
         </p>
@@ -259,9 +266,9 @@ MyPath Website
     </section>
 
     
-    <section class="services bg-gradient bg-light cc2" id="Collaborators">
+    <section class="services bg-gradient bg-light" id="CollaboratorsSection">
       
-      <div class="text-center">
+      <div class="text-center" id="Collaborators">
         <h2 class="font-weight-bold">Collaborators</h2>
       
         <p class="col-md-8 offset-md-2">The project MyPath, started from Miami University has attracted researchers from all over the globe. There has been a continued partnership with these researchers and due to this good partnership, MyPath has been able to reach new heights. Researchers currently or previously involved in the project:</p>
@@ -292,10 +299,26 @@ MyPath Website
         </div>
       </div>
 
+      <!-- 
+        When needed to add two more Collaborators, use this format 
+          <div class=" container center row">
+            <div class= "col-md-6">
+              <a href="http://www.users.miamioh.edu/raychov" target="_blank"><h3> Vaskar Raychoudhury</h3></a> 
+              <p>Department of Computer Science & Software Engineering, Miami University, Oxford, OH, USA</p>
+            </div>
+
+            <div class = "col-md-6">
+              <a href="https://osmanii.github.io/" target="_blank"><h3>Md Osman Gani</h3></a>
+              <p>Department of Information Systems, University of Maryland, Baltimore County, MD, USA </p>
+            </div>  
+          </div>
+
+      -->
+
     </section>
     
 
-    <section class="services bg-gradient bg-dark cc1">
+    <section class="services bg-gradient bg-dark ">
 
       <h2 class= "center">Student Collaborators</h2>
       <div class=" container center row">
@@ -406,12 +429,44 @@ MyPath Website
           <h3>Tuong Anh Nguyen (Amy)</h3>
           <small>Miami University 2021-22</small>
         </div>
-      
+
+        <!-- Each row can have 4, so to complete this row use this format twice
+          <div class= "col-md-3">
+            <h3>Tuong Anh Nguyen (Amy)</h3>
+            <small>Miami University 2021-22</small>
+          </div>
+        -->
       </div>
+
+<!-- To create another section use this format. After the above two have been filled. This will create new columns for names
+      <div class="container center row">
+        
+        <div class= "col-md-3">
+          <h3>Devin Harris</h3>
+          <small>Miami University 2020-21</small>
+        </div>
+
+        <div class= "col-md-3">
+          <h3>Haoduan Jiang</h3>
+          <small>Miami University 2020-21</small>
+        </div>
+
+        <div class= "col-md-3">
+          <h3>Lance Grengbondai</h3>
+          <small>Miami University 2020-21</small>
+        </div>
+
+        <div class= "col-md-3">
+          <h3>Bingfan Tian</h3>
+          <small>Miami University 2020-21</small>
+        </div>
+
+      </div> 
+-->
 
     </section>
    
-    <section class="services bg-light cc2">
+    <section class="services bg-light" id="MLSection">
       
       <div class="container center" id="ML">
       
@@ -427,11 +482,11 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-dark cc1">
+    <section class="services bg-dark" id="ModelsSection">
       <div class="container center" id="noPad">
     
-        <h3 class="text-center" style="text-decoration: underline;">Machine Learning Models</h3>
-        <div class="text-right">  
+        <h3>Machine Learning Models</h3>
+        <div>  
           
           <p>Logistic Regression (LR) </p>                       
           <p>Linear Discriminant Analysis (LDA) </p>
@@ -445,8 +500,8 @@ MyPath Website
         
         <br>
 
-        <h3 class="text-center" style="text-decoration: underline;">Deep Learning Models</h3>    
-        <div class="text-right">
+        <h3>Deep Learning Models</h3>    
+        <div>
         
           <p>Artificial Neural Network (ANN) </p>
           <p>Convolutional Neural Network (CNN) </p>
@@ -456,8 +511,8 @@ MyPath Website
         
         <br>
 
-        <h3 class="text-center" style="text-decoration: underline;">Transfer Learning Models</h3>
-        <div class="text-right">
+        <h3>Transfer Learning Models</h3>
+        <div>
         
           <p>Adaboost Algorithm based on fixed layers of ANN model </p>
           <p>Tradaboost Algorithm based on ANN model </p>
@@ -467,25 +522,25 @@ MyPath Website
       </div>
     </section>
 
-    <section class="services bg-light cc2">
+    <section class="services bg-light" id="ImageDataSection">
       <div class="container center">
           <h3 class="font-weight-bold">Idea of Image Data</h3>
           
-          <p class="text-justify">Sometimes the users are not able to access the wheelchair, thus we have implemented another approach to evaluate accessibility by using images collected from many different accessible surfaces to train a computer vision based model. </p>
+          <p>Sometimes the users are not able to access the wheelchair, thus we have implemented another approach to evaluate accessibility by using images collected from many different accessible surfaces to train a computer vision based model. </p>
         
           <br>
 
           <h4>Labeling</h4>
           
-          <p class="text-justify">Using LabelMe library in Jupyter Notebook to identify each surface type and barriers in the image.</p>
+          <p>Using LabelMe library in Jupyter Notebook to identify each surface type and barriers in the image.</p>
           
           <br>
 
           <h4>Image Processing</h4>
           
-          <p class="text-justify">We have decided to build up the model base on Deeplabv3 and Resnet101. First, we prepare the images and mask data and set them up for training, then we run the training process of the model and finally we evaluate the predictions and model performances. After that we are able to cut down the loss to around 0.3 level and we are able to add this new feature to the project. </p>
+          <p>We have decided to build up the model base on Deeplabv3 and Resnet101. First, we prepare the images and mask data and set them up for training, then we run the training process of the model and finally we evaluate the predictions and model performances. After that we are able to cut down the loss to around 0.3 level and we are able to add this new feature to the project. </p>
 
-          <p class="text-justify"> Mainstream  Methodologies for Image Classification: 
+          <p> Mainstream  Methodologies for Image Classification: 
             <ul>
               <li>Pure Image Classification</li>
               <li>Pixel-level Segmentation</li>
@@ -493,7 +548,7 @@ MyPath Website
             </ul>
           </p>
 
-          <p class="text-justify">Crack Detection Methodologies:
+          <p>Crack Detection Methodologies:
             <ul>
               <li>Binary Patterns</li>
               <li>Gabor Filter</li>
@@ -509,15 +564,15 @@ MyPath Website
           <p>Process of calculating the navigation path:</p>
 
           <p>
-            <ol class="text-left">
+            <ul>
 
               <li>The Front-end client sends a query to the server, including the coordinates of start, endpoint, and other information. </li>
               
               <li>Calculate accessibility scores based on various road information and user information.
-                <ul>
+                <ol>
                   <li>The road info including the surface type and the slope of the road. </li>
                   <li>The user info including the age, height, weight. </li>
-                </ul>
+                </ol>
               </li>
 
               <li>Assign weights to roads based on the calculated accessibility scores. </li>
@@ -525,14 +580,14 @@ MyPath Website
               <li>Import and modify the Graphhopper API. </li>
               <li>Send outcome results back to the front-end client. </li>
 
-            </ol>
+            </ul>
           </p>
         </div>
 
     </section>
 
 
-    <footer class="center bg-dark cc1">
+    <footer class="center bg-dark" id="footerSection">
       
       <p>Miami University</p>
       <p>MyPath &copy; 2021</p>
