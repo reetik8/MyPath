@@ -13,8 +13,8 @@
 
       // set the bounds of the map
       var bounds = [
-        [-84.863884, 39.420826],
-        [-84.603884, 39.587826]   // [-123.069003, 45.395273],  [-122.303707, 45.612333]
+        [-84.853884, 39.440826],
+        [-84.613884, 39.587826]   // [-123.069003, 45.395273],  [-122.303707, 45.612333]
       ];
       map.setMaxBounds(bounds);
 
@@ -31,7 +31,7 @@
       function getRoute(end) {
         // make directions request using cycling profile
         var url =
-          'https://api.mapbox.com/directions/v5/mapbox/cycling/' +
+          'https://api.mapbox.com/directions/v5/mapbox/walking/' +
           start[0] +
           ',' +
           start[1] +
@@ -100,7 +100,7 @@
             instructions.innerHTML =
               '<br><span class="duration">Trip duration: ' +
               Math.floor(data.duration / 60) +
-              ' min 🚴 </span>' +
+              ' min &#128694; </span>' +
               tripInstructions;
           }
         };
