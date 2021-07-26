@@ -87,6 +87,11 @@ footer p {
   text-decoration: underline;
 }
 
+.bg-dark a h3{
+  color: white;
+  text-decoration: underline;
+}
+
 .bg-alt1 a h3{
   text-decoration: underline;
 }
